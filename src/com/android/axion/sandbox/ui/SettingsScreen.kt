@@ -392,7 +392,7 @@ private fun AboutSection() {
                 icon = Icons.Outlined.Info,
                 showExternalIcon = true,
                 onClick = {
-                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/AxionAOSP/android_packages_apps_AxSandbox"))
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/crdroidandroid/android_packages_apps_Sandbox"))
                     context.startActivity(intent)
                 }
             )
