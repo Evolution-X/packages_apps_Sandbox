@@ -18,7 +18,6 @@ android_app {
 
     required: [
         "privapp-permissions-axsandbox",
-        "AppLocker",
     ],
 
     optimize: {
@@ -46,6 +45,7 @@ android_app {
         "androidx.navigation_navigation-compose",
         "androidx.lifecycle_lifecycle-viewmodel-compose",
         "androidx.lifecycle_lifecycle-runtime-compose",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
         "kotlinx-coroutines-core",
     ],
 
